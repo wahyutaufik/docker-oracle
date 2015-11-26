@@ -1,0 +1,8 @@
+oracle:
+  extends:
+    file: base.yml
+    service: docker
+  volumes:
+    - ./srv/oracle:/u01/app/oracle
+  ports:
+    - 8090:80
