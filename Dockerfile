@@ -11,7 +11,6 @@ ADD chkconfig /sbin/chkconfig
 ADD oracle-install.sh /oracle-install.sh
 ADD init.ora /
 ADD initXETemp.ora /
-ADD oracle-xe_11.2.0-1.0_amd64.deb /
 
 # use proxy
 RUN echo "\n\
