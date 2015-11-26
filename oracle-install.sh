@@ -9,7 +9,7 @@ downloadOracle () {
 
 	local url="https://media.githubusercontent.com/media/wahyutaufik/docker-oracle"
 
-	cd / && curl -o oracle-xe_11.2.0-1.0_amd64.deb2 $url/master/oracle-xe_11.2.0-1.0_amd64.deb
+	cd / && curl -o oracle-xe_11.2.0-1.0_amd64.deb $url/master/oracle-xe_11.2.0-1.0_amd64.deb
 
 # 	local ora_deb_partial=(
 # 		${ORA_DEB}aa
